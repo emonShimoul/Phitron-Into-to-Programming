@@ -1,11 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    
-    int password = 1999;
-    for (int i = 0; i < 3; i++)
+    int pass;
+    while(scanf("%d", &pass))
     {
-        
+        if(pass == 1999)
+        {
+        printf("Correct\n");
+        break;
+        }
+    else{
+        printf("Wrong\n");
+        }
     }
     
     return 0;
