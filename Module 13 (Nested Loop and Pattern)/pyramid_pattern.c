@@ -10,7 +10,6 @@ int main()
         {
             printf(" ");
         }
-        
         for(int j=1; j <= star; j++)  // for printing *
         {
             printf("*");
@@ -19,6 +18,5 @@ int main()
         star+=2;
         space--;
     }
-    
     return 0;
 }

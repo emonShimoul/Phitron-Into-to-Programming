@@ -12,6 +12,5 @@ int main()
         printf("\n");
         star++;
     }
-    
     return 0;
 }
